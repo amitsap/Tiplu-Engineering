@@ -1,6 +1,6 @@
-# Tiplu — engineering Nepali Marriage card rules
+# Tiplu — domain modeling and optimization for Nepali Marriage
 
-Tiplu is a native iPhone implementation of the 3-deck Nepali Marriage card game. This repository is a **curated, buildable engineering extract** of its rule validation and Maal scoring—not the production game repository.
+Tiplu models one of South Asia's most rule-dense card games as a deterministic engine: 156 distinct physical cards, rank-wrapping sequences, pure and wildcard melds, seven-dublee completion, and an optimization pass for allocating repeated Maal cards. This repository is a **curated, buildable engineering extract** of that validation and scoring work—not the production game repository.
 
 [View Tiplu on the App Store](https://apps.apple.com/us/app/tiplu-nepali-marriage/id6789902799) · [Product page](https://amitsapkota.me/tiplu/)
 
@@ -13,7 +13,7 @@ Tiplu is a native iPhone implementation of the 3-deck Nepali Marriage card game.
 - [`EngineTests.swift`](Tests/TipluEngineeringTests/EngineTests.swift): boundary-heavy examples including Ace wrapping, duplicate physical cards, player-count gates, and scoring allocation.
 - [`SOURCE_PROVENANCE.md`](SOURCE_PROVENANCE.md): exact production commit, original paths, and adaptations.
 
-The private production app also includes bots, persistence, Game Center, Multipeer Connectivity, and the full game-state reducer. Hosts validate actions and send each peer a personalized snapshot that omits opponents' cards; production payloads and identifiers are intentionally absent here.
+The private production product ships on iPhone and also includes bots, persistence, Game Center, nearby multiplayer, and the full game-state reducer. Hosts validate actions and send each peer a personalized snapshot that omits opponents' cards; production payloads and identifiers are intentionally absent here.
 
 ## Run the package
 
