@@ -2,7 +2,7 @@
 
 Tiplu models one of South Asia's most rule-dense card games as a deterministic engine: 156 distinct physical cards, rank-wrapping sequences, pure and wildcard melds, seven-dublee completion, and an optimization pass for allocating repeated Maal cards. This repository is a **curated, buildable engineering extract** of that validation and scoring work—not the production game repository.
 
-[View Tiplu on the App Store](https://apps.apple.com/us/app/tiplu-nepali-marriage/id6789902799) · [Product page](https://amitsapkota.me/tiplu/)
+[View Tiplu on the App Store](https://apps.apple.com/us/app/tiplu-nepali-marriage/id6789902799) · [Product page](https://greatarc.app/tiplu/)
 
 ![Tiplu game table](docs/images/hero.png)
 
